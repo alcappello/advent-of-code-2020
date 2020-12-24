@@ -33,7 +33,9 @@ RSpec.describe 'DayThree' do
     it 'solves the riddle #1' do
       puts DayThree.count_the_trees(@data, 3, 1)
     end
+  end
 
+  context 'Second Riddle' do
     it 'solves the riddle #2' do
       count = 1
       count *= DayThree.count_the_trees(@data, 1, 1)
