@@ -16,9 +16,10 @@ RSpec.describe DayFour do
         data << accumulator
         accumulator = ''
       else
-        accumulator +=  " #{row}"
+        accumulator += " #{row}"
       end
     end
+    data << accumulator
 
     @data = data
   end
